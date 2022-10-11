@@ -44,3 +44,47 @@ nav ul li a:hover{
   color: #4ba9e7;
 }
 /* End Navbar */
+/* Start Main */
+main{
+  min-height: calc(100vh - 3rem);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+main .container{
+  text-align: center;
+}
+main .container h2{
+  background-color: #222;
+  color: white;
+  padding: 16px;
+  margin-bottom: 40px;
+  border-radius: 12px;
+  letter-spacing: 4px;
+}
+main .container h2 .color{
+  color: #4ba9e7;
+}
+main .btn{
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #222;
+  display: inline-block;
+  transition: .2s all linear;
+  cursor: pointer;
+  border: 2px solid #222;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+  border-radius: 20px;
+  letter-spacing: 2px;
+}
+main .btn:hover{
+  color: white;
+  background-color: #222;
+
+}
+main .btn-hero{
+  font-size: 20px;
+  padding: 20px 40px;
+}
+/* End Main */
