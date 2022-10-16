@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f8;
+}
+.main-container {
+  text-align: center;
+  padding: 20px;
+}
+.main-container h2 {
+  font-size: 60px;
+  color: #102a42;
+  margin-bottom: 20px;
+}
+.main-container .counter {
+  font-size: 80px;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 30px;
+}
+.main-container .button-group {
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+}
+.main-container .button-group button {
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #222;
+  display: inline-block;
+  transition: 0.2s all linear;
+  cursor: pointer;
+  border: 2px solid #222;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+  border-radius: 15px;
+  letter-spacing: 2px;
+  padding: 10px 15px;
+  font-size: 18px;
+  margin-right: 20px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.main-container .button-group button:hover {
+  color: white;
+  background-color: #222;
+}
