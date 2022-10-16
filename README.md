@@ -5,7 +5,7 @@ This repo will hold all JS projects that available in FreeCodeCamp Video:
 but with my own style and syntax without watching video.
 
 - [x] Color-Flipper
-- [ ] Simple-Counter
+- [x] Simple-Counter
 - [ ] Reviews/Quotes
 - [ ] NavBar
 - [ ] SideBar
