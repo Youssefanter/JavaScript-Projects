@@ -6,7 +6,7 @@ but with my own style and syntax without watching video.
 
 - [x] Color-Flipper
 - [x] Simple-Counter
-- [ ] Reviews/Quotes
+- [x] Reviews/Quotes
 - [ ] NavBar
 - [ ] SideBar
 - [ ] Modal
