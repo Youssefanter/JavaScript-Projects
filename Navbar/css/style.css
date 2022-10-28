@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+body{
+  background-color: #f1f5f8;
+}
+nav{
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+nav .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1170px;
+  margin: 0 auto;
+  transition: .3s all linear;
+}
+nav .container .nav-header{
+  padding: 1rem;
+}
+nav .container .nav-header .logo{
+  height: 40px;
+  display: block;
+}
+nav .container .nav-header .nav-toggle{
+  font-size: 1.5rem;
+    color: black;
+    background: transparent;
+    border-color: transparent;
+    transition: .3s all linear;
+    cursor: pointer;
+    display: none;
+}
+nav .container .nav-header .nav-toggle:hover{
+  transform: rotate(90deg);
+}
+.links{
+  display: flex;
+  list-style: none;
+}
+nav .container .links a{
+  padding: 0;
+  margin: 0 0.5rem;
+  text-decoration: none ;
+  text-transform: capitalize;
+}
+
+nav .container .social-links{
+  display: flex;
+  list-style: none;
+}
+nav .container .social-links a{
+  padding: 0;
+  margin: 0 0.5rem;
+  text-decoration: none ;
+  color: black;
+}
+@media (max-width:800px) {
+  nav .container .social-links{
+    display: none;
+  }
+  
+  .links{
+    display: block; 
+    overflow: hidden;
+    height: 0;
+    transition: .3s all linear;
+  }
+  .show-links{
+    height: 10rem;
+  }
+  .links li{
+    margin-bottom: 16px;
+  }
+  nav .container {
+    display: block;
+    transition: .3s all linear;
+  }
+  nav .container .nav-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  nav .container .nav-header .nav-toggle{
+    display: block;
+  }
+}
