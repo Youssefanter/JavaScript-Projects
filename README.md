@@ -7,7 +7,7 @@ but with my own style and syntax without watching video.
 - [x] Color-Flipper
 - [x] Simple-Counter
 - [x] Reviews/Quotes
-- [ ] NavBar
+- [x] NavBar
 - [ ] SideBar
 - [ ] Modal
 - [ ] Questions
